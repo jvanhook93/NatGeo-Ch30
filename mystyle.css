@@ -1,0 +1,74 @@
+/*global*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+*{
+  margin:0;
+  padding:0;
+
+}
+body {
+  font-family: 'lato', sans-serif;
+  background-color: black;
+  color: white;
+}
+img{
+  max-width: 100%;
+}
+a{
+  text-decoration: none;
+}
+/*utilities*/
+
+/*menu*/
+nav.menu {
+  background-color: white;
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav.menu .frame-logo{
+  height: 32px;
+  padding-left: 15px;
+}
+nav.menu a{
+  color: black;
+  margin-right: 15px;
+}
+.complete-logo, .link-newsletter,.link-menu,.link-search {
+  display: none;/*hidding elements*/
+}
+.link-login{
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+nav.menu a.link-subscribe{
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 3px;
+  font-weight: 700;
+  background-color: black;
+  color: white;
+  padding: 12px;
+}
+nav.menu a.link-subscribe:hover{
+  background-color:#ffcc00;
+  color: black;
+}
+nav.menu .link-arrows{
+  color: black;
+}
+/*headers*/
+header {
+  height: 240px;
+}
+header h1 {
+
+}
+header p {
+
+}
+header .line {
+  
+}
