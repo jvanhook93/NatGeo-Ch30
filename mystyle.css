@@ -51,9 +51,10 @@ nav.menu a.link-subscribe{
   background-color: black;
   color: white;
   padding: 12px;
+  transition: ease-out 0.4s;
 }
 nav.menu a.link-subscribe:hover{
-  background-color:#ffcc00;
+  box-shadow: inset 170px 0 0 0 #ffcc00;
   color: black;
 }
 nav.menu .link-arrows{
